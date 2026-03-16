@@ -1,0 +1,10 @@
+# Work Smart - robots.txt
+# Autoriser Google uniquement
+User-agent: Googlebot
+Allow: /
+
+# Bloquer tous les autres robots
+User-agent: *
+Disallow: /
+
+Sitemap: https://aworksmart.netlify.app/sitemap.xml
